@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="273.0" prefWidth="555.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="idVenteTf" layoutX="151.0" layoutY="32.0" prefHeight="24.0" prefWidth="354.0" />
+      <TextField fx:id="idProduitTf" layoutX="151.0" layoutY="71.0" prefHeight="24.0" prefWidth="354.0" />
+      <TextField fx:id="idClientTf" layoutX="151.0" layoutY="113.0" prefHeight="24.0" prefWidth="354.0" />
+      <TextField fx:id="idQuantiteTf" layoutX="151.0" layoutY="151.0" prefHeight="24.0" prefWidth="354.0" />
+      <Label fx:id="idVenteLabel" layoutX="68.0" layoutY="36.0" prefHeight="16.0" prefWidth="69.0" text="idVente" />
+      <Label fx:id="idProduitLabel" layoutX="68.0" layoutY="75.0" prefHeight="16.0" prefWidth="69.0" text="idProduit" />
+      <Label fx:id="idClientLabel" layoutX="68.0" layoutY="117.0" prefHeight="16.0" prefWidth="69.0" text="idClient" />
+      <Label fx:id="quantiteLabel" layoutX="68.0" layoutY="155.0" prefHeight="16.0" prefWidth="69.0" text="quantite" />
+   </children>
+</AnchorPane>
